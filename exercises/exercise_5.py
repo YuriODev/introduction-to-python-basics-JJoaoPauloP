@@ -4,4 +4,4 @@
 numa = int(input())
 numb = int(input())
 
-print(max(numa, numb))
+print((numa + numb + abs(numa - numb))//2)
