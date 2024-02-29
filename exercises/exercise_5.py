@@ -1,7 +1,7 @@
 # Exercise 5
 # Your solution comes here
 
-num_a = int(input())
-num_b = int(input())
+numa = int(input())
+numb = int(input())
 
-print(max(num_a, num_b))
+print(max(numa, numb))
