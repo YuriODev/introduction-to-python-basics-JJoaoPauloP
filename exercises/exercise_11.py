@@ -6,7 +6,6 @@ notes_500 = 0
 notes_100 = 0
 notes_10 = 0
 notes_5 = 0
-notes_2 = 0
 notes_1 = 0
 
 while total_goods >= 500:
@@ -26,12 +25,8 @@ while total_goods >= 5:
 	total_goods = total_goods - 5
 	notes_5 += 1
 
-while total_goods >= 2:
-	total_goods = total_goods - 2
-	notes_2 += 1
-
 while total_goods >= 1:
 	total_goods = total_goods - 1
 	notes_1 += 1
 
-print (notes_500, "(500)", notes_100, "(100)", notes_10,"(10)", notes_5,"(5)", notes_2,"(2)", "(1)", notes_1)
+print (notes_500, "(500),", notes_100, "(100),", notes_10,"(10),", notes_5,"(5),", notes_1, "(1)")
