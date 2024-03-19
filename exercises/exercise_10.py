@@ -3,4 +3,4 @@
 
 a = int(input())
 minute_angle = (a % 30) * 12
-print(minute_angle)
+print(float(minute_angle))
